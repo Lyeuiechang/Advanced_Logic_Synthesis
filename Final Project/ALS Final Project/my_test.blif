@@ -1,0 +1,48 @@
+.model sample01
+.inputs a b c d e
+.outputs f g
+.names d n6621 n662
+11 1
+.names d r6621 r662
+1- 1
+-1 1
+.names a n662 f
+1- 1
+-1 1
+.names n662 t6621 t662
+11 1
+.names t662 g
+0 1
+.names c b n6621
+11 1
+.names c b r6621
+1- 1
+-1 1
+.names e r662 t6621
+11 1
+.end
+.model sample01
+.inputs a b c d e
+.outputs f g
+.names t662 g
+0 1
+.names n662 t6621 e r662 t662
+1111 1
+.names d r6621 c b r662
+1--- 1
+-1-- 1
+--1- 1
+---1 1
+.names c b r6621
+1- 1
+-1 1
+.names e r662 t6621
+11 1
+.names d n6621 c b n662
+1111 1
+.names c b n6621
+11 1
+.names a n662 f
+1- 1
+-1 1
+.end

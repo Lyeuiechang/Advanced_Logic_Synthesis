@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1624632718 source:c:\users\lyeuiechang\documents\codeblocks\als final project\main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<stack>
+	<algorithm>
+
